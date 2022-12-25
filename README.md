@@ -11,9 +11,9 @@ Se você deseja integrar um sistema de pagamentos com o Pix, é necessário util
 
 Para usar o script, é necessário ter o módulo qrcode instalado. Você pode instalá-lo usando o seguinte comando:
 
-'''
+```
 pip install qrcode
-'''
+```
 
 
 O script possui uma função chamada gerar_qr_code_pix(), que recebe dois parâmetros: valor e destinatario. O parâmetro valor representa o valor da transação, enquanto o parâmetro destinatario representa o nome ou razão social do destinatário.
@@ -22,8 +22,8 @@ A função cria uma chave Pix a partir dos parâmetros passados, e gera um QR Co
 
 Para usar a função, basta chamá-la passando os valores desejados para os parâmetros. Por exemplo:
 
-'''
+```
 gerar_qr_code_pix(100.0, "João da Silva")
-'''
+```
 
 Isso irá gerar um QR Code para uma transação no valor de R$ 100,00 para o destinatário "João da Silva".
